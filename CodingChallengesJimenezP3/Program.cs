@@ -29,7 +29,7 @@ class Challenges
 
         //var number4 = Console.ReadLine();
         //var number4int = int.Parse(number4);
-
+        
         //Console.WriteLine(number4 + " + 1 is " + 5);
 
         //Console.WriteLine("Today we are going to take voltage and current and return it's calculated power");
@@ -45,18 +45,38 @@ class Challenges
         //Console.WriteLine("the voltage of " + voltageint + " +currentint+ we can calculate the power which is +Circuit(voltageint * currentint");
 
 
-        Console.WriteLine("Today we are going to take a number in years and return it into days");
+      //Console.WriteLine("Today we are going to take a number in years and return it into days");
 
-        var ageYrs = Console.ReadLine();
-        int ageint = int.Parse(ageYrs);
+      //var ageYrs = Console.ReadLine();
+      //int ageint = int.Parse(ageYrs);
 
-        Console.WriteLine("if you are now " + ageYrs + " then you would be " + Aged(ageint) + " days old");
+      //Console.WriteLine("if you are now " + ageYrs + " then you would be " + Aged(ageint) + " days old");
 
 
       //Console.WriteLine("Today we are going to take a number as it's only argument and return true if it's less or equal to zero, if it's not then return false");
 
       //var returnTrue = Console.ReadLine();
-        
+
+        Console.WriteLine("Today we are going to make the challenges selectable by you, choose which function you want to run")
+        bool running = true;
+
+        while (running)
+        {
+            Console.WriteLine("/nPlease choose which function you want to use:");
+            Console.WriteLine("1. Sum of two numbers");
+            Console.WriteLine("2. Convert minutes into seconds");
+            Console.WriteLine("3. Adding 1 to a number");
+            Console.WriteLine("4. Calculate the circuit power");
+            Console.WriteLine("5. Calculate your age in days");
+            Console.WriteLine("6. Calculate the area of a triangle");
+            Console.WriteLine("7. Check if a number is either negative or positive");
+
+        }
+
+
+        Console.WriteLine("Today we will give two numbers and return true if both numbers are less than 100 and return false if it is more than 100");
+
+
 
         //public static int Sum(int number1, int number2)
         {
